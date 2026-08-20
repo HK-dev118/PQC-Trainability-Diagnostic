@@ -3,12 +3,12 @@ def generate_seeds(
     start_seed: int = 42
 ):
     """
-    Generate reproducible random seeds for circuit initialization.
+    Generate reproducible seeds for circuit initialization.
 
     Parameters
     ----------
     n_initializations : int
-        Number of different initializations to generate.
+        Number of different initializations.
 
     start_seed : int
         First seed value.
@@ -16,7 +16,7 @@ def generate_seeds(
     Returns
     -------
     list[int]
-        List of reproducible seeds.
+        Reproducible seed values.
     """
 
     if n_initializations < 1:
