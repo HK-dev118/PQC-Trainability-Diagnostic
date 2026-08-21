@@ -89,6 +89,6 @@ def create_pqc(
                     wires=[n_qubits - 1, 0]
                 )
 
-        return qml.expval(qml.PauliZ(0))
+        return [qml.expval(qml.PauliZ(i)) for i in range(n_qubits)]
 
     return circuit, weights
