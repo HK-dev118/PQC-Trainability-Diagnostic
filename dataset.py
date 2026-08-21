@@ -2,8 +2,8 @@ import pandas as pd
 
 
 def create_experiment_configurations(
-    qubit_counts=(2, 4, 6, 8),
-    depths=(1, 2, 3, 4),
+    qubit_counts=(2, 4, 6, 8, 10, 12, 14),
+depths=(1, 2, 3, 4, 6, 8, 10),
     ansatzes=("linear", "ring"),
     seeds=(42, 43, 44, 45, 46)
 ):
