@@ -1,0 +1,8 @@
+,indicator,individual_accuracy,correlation_with_success,usefulness
+1,n_qubits,0.854,-0.6436043047968352,Strong
+2,gradient_variance,0.787,0.5442519490525741,Strong
+3,mean_gradient_magnitude,0.787,0.6371172589067026,Strong
+4,near_zero_percentage,0.679,-0.2878455448164017,Moderate
+5,n_trainable_parameters,0.673,-0.3920900088186761,Moderate
+6,n_gates,0.673,-0.3981698773416615,Moderate
+7,depth,0.513,0.0439665911518157,Weak (near coin-flip)

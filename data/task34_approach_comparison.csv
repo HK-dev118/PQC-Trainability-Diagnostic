@@ -1,0 +1,11 @@
+indicator,accuracy
+n_qubits,0.8542274052478134
+all_combined (task 31 score),0.8192419825072886
+gradient_variance,0.7871720116618076
+mean_gradient_magnitude,0.7871720116618076
+gradient_only_combined,0.7842565597667639
+near_zero_percentage,0.6793002915451894
+n_gates,0.673469387755102
+n_trainable_parameters,0.673469387755102
+circuit_only_combined,0.5918367346938775
+depth,0.5131195335276968
